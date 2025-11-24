@@ -30,7 +30,7 @@ python run.py --dataset_name MELD --gnn_layers 2 --lr 0.00001 --batch_size 64 --
 ```
 
 ### Citation
-If you use this code or the LSDGNN method, please cite the following paper:
+If you use the methods proposed in our paper, please cite:
 
 ```
 @inproceedings{LSDGNN,
