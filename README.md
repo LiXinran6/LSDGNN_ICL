@@ -23,10 +23,10 @@ GPU NVIDIA GeForce RTX 3090
 
 ```
 for IEMOCAP:
-`python run.py --dataset_name IEMOCAP --gnn_layers 4 --lr 0.0005 --batch_size 16 --epochs 30 --dropout 0.4 --emb_dim 2948 --windowpl 5 --diffloss 0.1 --curriculum --bucket_number 5`
+python run.py --dataset_name IEMOCAP --gnn_layers 4 --lr 0.0005 --batch_size 16 --epochs 30 --dropout 0.4 --emb_dim 2948 --windowpl 5 --diffloss 0.1 --curriculum --bucket_number 5
 
 for MELD:
-`python run.py --dataset_name MELD --gnn_layers 2 --lr 0.00001 --batch_size 64 --epochs 30 --dropout 0.1  --emb_dim 1666 --windowpl 5 --diffloss 0.2  --curriculum --bucket_number  12`
+python run.py --dataset_name MELD --gnn_layers 2 --lr 0.00001 --batch_size 64 --epochs 30 --dropout 0.1  --emb_dim 1666 --windowpl 5 --diffloss 0.2  --curriculum --bucket_number  12
 ```
 
 ### Citation
