@@ -24,3 +24,18 @@ for IEMOCAP:
 
 for MELD:
 `python run.py --dataset_name MELD --gnn_layers 2 --lr 0.00001 --batch_size 64 --epochs 30 --dropout 0.1  --emb_dim 1666 --windowpl 5 --diffloss 0.2  --curriculum --bucket_number  12`
+
+### Citation
+If you use this code or the LSDGNN method, please cite the following paper:
+
+@inproceedings{LSDGNN,
+  author    = {Xinran Li and Xiujuan Xu and Jiaqi Qiao},
+  title     = {Long-Short Distance Graph Neural Networks and Improved Curriculum Learning for Emotion Recognition in Conversation},
+  booktitle = {Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)},
+  year      = {2025},
+  pages     = {4033--4040},
+  doi       = {10.3233/FAIA251292},
+  series    = {Frontiers in Artificial Intelligence and Applications},
+  volume    = {413},
+  publisher = {IOS Press},
+}
